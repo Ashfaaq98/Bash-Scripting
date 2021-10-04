@@ -1,4 +1,4 @@
-# bashScripting
+# Bash Scripting
 
 This is a repository for bash shell scripting tutorials and useful Bash Shell Scripts.
 
