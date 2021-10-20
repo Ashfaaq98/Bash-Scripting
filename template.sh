@@ -6,13 +6,13 @@
 echo -e "Enter the name of the script you wish to create:\c"
 read -r file
 
-
 touch /home/Ashfaaq/scripts/$file.sh
+wd=/home/Ashfaaq/scripts
 
-echo '#!/bin/bash' > /home/Ashfaaq/scripts/$file.sh
-echo '#Purpose:' >> /home/Ashfaaq/scripts/$file.sh
-echo '#Version:' >> /home/Ashfaaq/scripts/$file.sh
-echo '#Created date:' `date` >> /home/Ashfaaq/scripts/$file.sh
-echo '#START' >> /home/Ashfaaq/scripts/$file.sh
-echo '#END' >> /home/Ashfaaq/scripts/$file.sh
+echo '#!/bin/bash' > $wd/$file.sh
+echo '#Purpose:' >> $wd/$file.sh
+echo '#Version:' >> $wd/$file.sh
+echo '#Created date:' `date` >> $wd/$file.sh
+echo '#START' >> $wd/$file.sh
+echo '#END' >> $wd/$file.sh
 

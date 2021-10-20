@@ -17,4 +17,14 @@ expr, ip, ln, sysctl, tcpdump, umask, wget, yum, zip
 
 Use this as a template to create scripts.
 
+2) useradd.sh
 
+Add users in a file list to the system
+
+3) userdel.sh
+
+Removing users in a file list from the system
+
+4) remotescript.sh
+
+Executing scripts on remote computers using ssh protocol
