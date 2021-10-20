@@ -28,3 +28,14 @@ Removing users in a file list from the system
 4) remotescript.sh
 
 Executing scripts on remote computers using ssh protocol
+
+5) systemLoad.sh
+
+6) System.sh
+
+Outputs a detailed system report of the Host device
+
+7) bandwidthUtilization.sh
+
+Calculates the bandwidth utilization on the network interfaces.
+
