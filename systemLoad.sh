@@ -13,7 +13,7 @@ LOAD=`uptime | awk '{print $9,$10,$11 }'`
 CPU=`top -b -n 2 -d1 | grep "Cpu(s)" | tail -n1 | awk '{print $2}'`
 MEMORY=`free -m | grep Mem: | tail -n1 | awk '{print $2,$3}'`
 
-echo "$DATE $HOSTNAME Load Average: $LOAD CPU Usage: $CPU Memory: $MEMORY"
+echo "$DATE $HOSTNAME Load Average: $LOAD CPU Usage: $CPU Memory(total and  used in MB): $MEMORY"
 
 
 #END

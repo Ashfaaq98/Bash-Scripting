@@ -31,6 +31,8 @@ Executing scripts on remote computers using ssh protocol
 
 5) systemLoad.sh
 
+A simple script to view the CPU Load
+
 6) System.sh
 
 Outputs a detailed system report of the Host device
